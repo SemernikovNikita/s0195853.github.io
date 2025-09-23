@@ -7,60 +7,62 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
+
+
 <body>
+	
 	<header>
-		<img src="" alt="" id="logo">
+		<img src="https://avatars.mds.yandex.net/i?id=a2c747a3ccfa4d287e074cb7c474dc24c97eb28f-17641277-images-thumbs&n=13" alt="" id="logo" width="100px";>
 		<nav class="menu">
-			<a class="nav-link" href="https://www.kubsu.ru">Кубгу</a>
-			<a class="nav-link" href="http://www.kubsu.ru">Еще одна</a>
-			<a class="nav-link" href="http://www.kubsu.ru">И еще</a>
+			<a class="link" href="https://www.kubsu.ru">Кубгу</a>
+			<a class="link" href="http://www.kubsu.ru">Еще одна</a>
+			<a class="link" href="http://www.kubsu.ru">И еще</a>
 		</nav>
 		<h1 class="name">Лабораторная работа 2</h1>
-		</header>
-	<div class="center">	
-		<h1>Список гиперссылок</h1>
+	</header>
 
-		<ul>
-			<li><a href="http://www.kubsu.ru" title="Официальный сайт КубГУ"> Ссылка на сайт КубГУ первая</a></li>
-			<li><a href="https://www.kubsu.ru" title="Официальный сайт КубГУ"> Ссылка на сайт КубГУ вторая</a></li>
-			<li><a href="https://www.kubsu.ru"><img src="image.jpg" alt="цветочек" style="width: 200px";" ></a></li>
-			<li><a href="inside/inside_first.html"> Сокращенная ссылка на внутренню страницу</a></li>
-			<li><a href="index.html"> Сокращенная ссылка на главную страницу</a></li>
-			<li><a href="#element"> Ссылка на фрагмент страницы</a></li>
-			<p id="#element">Это для задания 6</p>
-			<li><a href="index.html?user=123&profile=234&cat=0"> Ссылка с 3 параметрами в URL</a></li>
-			<li><a href="index.html?id=123"> Ссылка с парамтером id в URL</a></li>
-			<li><a href="./incatalog.html"> Ссылка на страницу в текущем каталоге</a></li>
-			<li><a href="./about/about.html"> Ссылка на страницу в каталоге about</a></li>
-			<li><a href="../1step.html"> Ссылка на страницу в каталоге уровнем выше</a></li>
-			<li><a href="../../2step.html"> Ссылка на страницу в каталоге двумя уровнями выше</a></li>
-			<li>
+	<div id="center">
+		<h2>Список гиперссылок</h2>
+		<ul class="list">  	 
+			<li><a class="nav-link" href="http://www.kubsu.ru" title="Официальный сайт КубГУ"> Ссылка на сайт КубГУ первая</a></li>
+			<li><a class="nav-link" href="https://www.kubsu.ru" title="Официальный сайт КубГУ"> Ссылка на сайт КубГУ вторая</a></li>
+			<li><a class="nav-link" href="https://www.kubsu.ru"><img src="https://avatars.mds.yandex.net/i?id=82b93ff4ec4fc1a0b1e3df7bfdd8a1293bd8eb98-16441608-images-thumbs&n=13" alt="цветочек" style="width: 200px";" ></a></li>
+			<li><a class="nav-link" href="inside/inside_first.html"> Сокращенная ссылка на внутренню страницу</a></li>
+			<li><a class="nav-link" href="index.html"> Сокращенная ссылка на главную страницу</a></li>
+			<li><a class="nav-link" href="#element"> Ссылка на фрагмент страницы</a></li>
+			<li><a class="nav-link" href="index.html?user=123&profile=234&cat=0"> Ссылка с 3 параметрами в URL</a></li>
+			<li><a class="nav-link" href="index.html?id=123"> Ссылка с парамтером id в URL</a></li>
+			<li><a class="nav-link" href="./incatalog.html"> Ссылка на страницу в текущем каталоге</a></li>
+			<li><a class="nav-link" href="./about/about.html"> Ссылка на страницу в каталоге about</a></li>
+			<li><a class="nav-link" href="../1step.html"> Ссылка на страницу в каталоге уровнем выше</a></li>
+			<li><a class="nav-link" href="../../2step.html"> Ссылка на страницу в каталоге двумя уровнями выше</a></li>
+			<li class="nav-link" >
+
 					 Невероятно осмысленный текст 
-					<a href="https://www.kubsu.ru">со ссылкой</a>
+					<a class="nav-link" href="https://www.kubsu.ru">со ссылкой</a>
 			</li>
-			<li><a href ="https://www.kubsu.ru/lib/images/Group3288.png">Ссылка на фрагмент стороннего сайта</a></li>
+			<li><a class="nav-link" href ="https://www.kubsu.ru/lib/images/Group3288.png">Ссылка на фрагмент стороннего сайта</a></li>
 				
-				<img src="aaa.png" usemap="#cat">
+				<img src="https://i.ytimg.com/vi/tqh_z6fugJs/hq720.jpg" width="500px"usemap="#cat">
 				<map name="cat">
 					<area shape="rect" coords="0,0,251,274" href="http://www.kubsu.ru">
 					<area shape="circle" coords="400,64,64" href="http://www.kubsu.ru">
 				</map>
 				
-			<li>Ссылки из прямоугольных и круглых областей картинки</li>
-			<li><a href=""> Ссылка с пустым href</a></li>
-			<li><a title="тут ничего нет"> Ссылка без href</a></li>
-			<li><a href="index.html" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>	
-			<li><noindex><a href="index.html"> Ссылка, запрещенная для индексации поисковиками</a></noindex></li>
+			<li class="nav-link" >Ссылки из прямоугольных и круглых областей картинки</li>
+			<li><a class="nav-link" href=""> Ссылка с пустым href</a></li>
+			<li><a class="nav-link" title="тут ничего нет"> Ссылка без href</a></li>
+			<li><a class="nav-link" href="index.html" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>	
+			<li><noindex><a class="nav-link" href="index.html"> Ссылка, запрещенная для индексации поисковиками</a></noindex></li>
 			
 			<li>
-				<ol>
+				<ol class="nav-link" >
 					Нумерованный список ссылок
-					<li><a href="https://www.kubsu.ru" title="Первая">ссылка</a></li>
-					<li><a href="https://www.kubsu.ru" title="Вторая">ссылка</a></li>
-					<li><a href="https://www.kubsu.ru" title="Третья">ссылка</a></li>
+					<li><a class="nav-link" href="https://www.kubsu.ru" title="Первая">ссылка</a></li>
+					<li><a class="nav-link" href="https://www.kubsu.ru" title="Вторая">ссылка</a></li>
+					<li><a class="nav-link" href="https://www.kubsu.ru" title="Третья">ссылка</a></li>
 				</ol>
 			</li>
-			
 		</ul>
 	</div>
 		<table class = "tablic">
@@ -172,6 +174,6 @@
 			</form>
 
 		<footer>
-			<h3 class="name2">(c)Семерников Никита</h3>
+			<h2 id="#element"class="name2">(c)Семерников Никита</h2>
 		</footer>
 </body>
