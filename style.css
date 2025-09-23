@@ -11,32 +11,40 @@ body{
 }
 
 header{
-    background-color: ##f6c177;
+    background-color: #6495ED;
     width: 100%;
-    height: 150px;
+    height: 140px;
     float: left;
+    margin-bottom: 25px;
+    top: 0;
+    position: fixed;
 }
 
-.center{
+#center{
     max-width: 960px;
-    width: 100%;
+    width: 80%;
     margin: auto;
-    background-color: ##f6c177;
-
+    background-color: #6495ED;
+    margin-bottom: 25px;
+    margin-top: 165px;
+    
 }
 
 .forma{
     max-width: 960px;
     width: 100%;
     margin: auto;
-    background-color: ##f6c177;
+    background-color: #6495ED;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .name{
+    margin-top: 16px;
     float: left;
     color: #bdc4d4;
 }
-.logo{
+#logo{
     width: 100px;
     height: 100px;
     margin: 20px;
@@ -49,18 +57,22 @@ nav{
     margin: 20px;
     max-width: 960px;
     width: 100%;
-
 }
 
 .nav-link{
     padding-left:30px ;
     font-size: 25px;
-    color: #7b9c92;
+    color: #011427;
+    font-family: Courier New, monospace;
 }
 
 .tablic{
-    width: 80%;
+    margin: 10;
+    max-width: 960px;
+    width: 100%;
     margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border: 1px solid grey;
     color: ##f6c177;
     text-aligh: center;
@@ -75,19 +87,26 @@ td {
 }
 
 .chet{
-    background: #0f1a2b;
+    background: #6495ED;
 }
 
+.link{
+    padding-left:30px ;
+    font-size: 25px;
+    color: #bdc4d4;
+    font-family: 'Century Gothic', cursive;
+}
 
 footer{
-    background-color: ##f6c177;
+    background-color: #6495ED;
     width: 100%;
-    height: 30px;
+    height: 60px;
     float: left;
 }
 
 .name2{
+    margin-left: 30px;
+    margin-top: 15px;
     float: left;
     color: #bdc4d4;
 }
-
