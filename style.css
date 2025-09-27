@@ -17,7 +17,6 @@ header{
     float: left;
     margin-bottom: 25px;
     top: 0;
-    position: fixed;
 }
 
 #center{
@@ -110,4 +109,5 @@ footer{
     float: left;
     color: #bdc4d4;
 }
+
 
