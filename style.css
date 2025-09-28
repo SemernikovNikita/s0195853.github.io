@@ -29,7 +29,7 @@ header{
     
 }
 
-.forma{
+#forma{
     max-width: 960px;
     width: 100%;
     margin: auto;
@@ -65,7 +65,7 @@ nav{
     font-family: Courier New, monospace;
 }
 
-.tablic{
+#tablic{
     margin: 10;
     max-width: 960px;
     width: 100%;
@@ -108,4 +108,3 @@ footer{
     float: left;
     color: #bdc4d4;
 }
-
